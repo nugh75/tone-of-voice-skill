@@ -15,7 +15,7 @@ Apply these rules when writing, revising, or translating content.
 | # | Rule | Detail |
 |---|------|--------|
 | 1 | **Formal register with creative licence** | Academic tone, but allow occasional metaphors (any domain) and measured humour/irony. |
-| 2 | **Frasi brevi, non telegrafiche** | Preferire frasi concise, ma variare la lunghezza per creare ritmo. Una frase molto breve può chiudere un paragrafo con forza; una più ampia può dispiegare un ragionamento complesso. Evitare sia il periodare involuto sia la successione di frasi a singhiozzo. |
+| 2 | **Short sentences** | Prefer concise, scannable sentences over long periodic constructions. |
 | 3 | **Impersonal voice** | Use *"si ritiene"*, *"è possibile osservare"*, etc. Avoid first-person singular (*"io"*, *"ritengo"*). |
 | 4 | **Accessible language** | Define every acronym at first use: *LLM (Large Language Model)*. Avoid unexplained jargon. |
 | 5 | **No repetition** | Vary vocabulary; use synonyms rather than repeating the same term. |
@@ -27,7 +27,6 @@ Apply these rules when writing, revising, or translating content.
 | 11 | **Thematic unity** | Each theme must be opened, developed, and concluded within a single section. Every new term/concept must be briefly glossed on first mention; the full treatment belongs in the section dedicated to that concept. |
 | 12 | **Linear argumentation** | The argument flow must be strictly linear — never introduce a concept whose comprehension depends on material that appears later in the text. |
 | 13 | **Anafore univoche e zero** | Ogni pronome anaforico (questo, questa, ciò, esso, ella, loro, il, la, le, i, un, tale, simile, stesso, medesimo) deve avere un solo antecedente plausibile nel contesto immediato. Verificare sempre: a quale sostantivo rimanda il pronome? Se la risposta non è immediata, riscrivere. Analogamente, le anafore zero (soggetto o complemento omesso perché recuperabile dal contesto) devono essere interpretabili con certezza: se il lettore deve dedurre l'agente dall'azione verbale o dalla coesione testuale, il rischio di ambiguità è alto. In caso di dubbio, esplicitare il nome. |
-| 14 | **Ritmo e respiro** | Alternare frasi brevi, medie e lunghe all'interno di ciascun paragrafo. La prosa deve «respirare»: nessuna sequenza di più di tre frasi brevi consecutive senza una frase-ponte che leghi. |
 
 ## Diplomacy & Criticism
 
