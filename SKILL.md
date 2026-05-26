@@ -15,7 +15,7 @@ Apply these rules when writing, revising, or translating content.
 | # | Rule | Detail |
 |---|------|--------|
 | 1 | **Formal register with bounded creative licence** | Academic tone first. Allow occasional metaphors and measured humour/irony only when they do not reduce precision, neutrality, or scholarly credibility. In empirical sections, prefer plain style. |
-| 2 | **Short sentences** | Prefer concise, scannable sentences over long periodic constructions. |
+| 2 | **Well-articulated sentences** | Prefer sentences that fully develop the thought, with subordinate clauses where they add precision and logical nuance. Avoid both excessive fragmentation (paratactic strings) and gratuitous convolution. |
 | 3 | **Impersonal voice** | Use *"si ritiene"*, *"è possibile osservare"*, etc. Avoid first-person singular (*"io"*, *"ritengo"*). |
 | 4 | **Accessible language** | Define every acronym at first use: *LLM (Large Language Model)*. Avoid unexplained jargon. |
 | 5 | **No repetition** | Vary vocabulary; use synonyms rather than repeating the same term. |
