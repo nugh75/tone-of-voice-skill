@@ -6,7 +6,7 @@ description: |
   revising, or translating any text intended for publication.
 ---
 
-# Tone of Voice Skill
+# Tone of Voice Skill `ToV`
 
 Apply these rules when writing, revising, or translating content.
 
