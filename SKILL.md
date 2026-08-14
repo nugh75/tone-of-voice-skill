@@ -33,6 +33,7 @@ Apply these rules when writing, revising, or translating content.
 | 17 | **Originality must be explicit** | When introducing a framework, state clearly what is novel relative to adjacent models and distinguish original contribution from integration or synthesis. |
 | 18 | **Terminological stability** | Use one label per construct throughout the manuscript unless a justified distinction is introduced explicitly. |
 | 19 | **Editorial economy** | When close to a character cap, replace rhetorical transitions, repeated framing, and redundant qualifiers with concise methodological specification. |
+| 20 | **Connettivi a inizio frase** | Il connettivo apre la frase ed è seguito da virgola: *"Tuttavia, ..."*, *"Infatti, ..."*, *"Pertanto, ..."*, *"Inoltre, ..."*. Mai inserito all'interno della frase: *"Il dato, tuttavia, ..."* → *"Tuttavia, il dato ..."*. |
 
 ## Diplomacy & Criticism
 
