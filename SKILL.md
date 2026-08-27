@@ -16,6 +16,12 @@ Use these rules as a style filter, not as permission to change the argument.
 
 Surface genuine conflicts. Do not silently override an explicit user choice.
 
+Choose the least invasive pass that satisfies the request: `proofread` for
+objective errors, `line edit` for local clarity and rhythm, and `deep rewrite`
+only when substantial recasting is explicitly requested or already approved.
+Style signals are candidates for contextual review, never automatic bans or
+search-and-replace rules.
+
 ## Academic voice
 
 - Prefer clear, concrete academic language. Preserve necessary theoretical and
@@ -75,6 +81,32 @@ Surface genuine conflicts. Do not silently override an explicit user choice.
   must not silently move, merge, cut, or invent substantive material.
 - Let paragraph length follow argumentative function and readability. Do not
   enforce arbitrary sentence or word limits.
+
+## Formula and implication audit
+
+Review clusters of these signals when they make the prose repetitive,
+indirect, or mechanically emphatic:
+
+- copular periphrases and empty nominalizations where a direct verb is more
+  precise;
+- stacked gerunds, abstract nouns, or adverbs that obscure the agent and the
+  action;
+- forced triads, redundant connectors, repeated negative contrasts, generic
+  metadiscourse, and conclusions that add emphasis but no implication;
+- service-like openings, summaries, or assurances that sound like assistant
+  residue rather than part of the author's argument.
+
+Preserve a pattern when it carries a real distinction, list, qualification, or
+disciplinary function. Do not vary canonical terminology merely to avoid
+lexical repetition. If the underlying proposition is duplicated or the
+argument circles back without advancing, route the passage to `wayfinder` or
+`article-revision` `/r-redundancy`; surface polish cannot repair that defect.
+
+After every style revision, compare the source and result for entities and
+numbers, polarity and negation, modality and certainty, causal strength, scope,
+conditions, limitations, and citation function. Restore any change that was not
+explicitly requested. Preserve an internally consistent typographic convention
+unless the user or a controlling editorial norm requires normalization.
 
 ## Presentation
 
