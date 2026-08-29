@@ -29,23 +29,68 @@ search-and-replace rules.
 - Develop each sentence as far as its reasoning requires. Use direct syntax
   where it improves clarity, but retain subordination when it expresses scope,
   conditions, causality, concession, or epistemic nuance.
+- A period with one main clause and one or two significant subordinates is the
+  typical readable range; exceeding it is a signal to inspect, not an error.
+  Propose restructuring when two or more of these co-occur: subordinates nested
+  past the second level, subject and main verb separated by an inserted clause,
+  complements stacked through chained prepositions, or a main verb that arrives
+  after the reader has held three or more units open.
 - Use first person, impersonal forms, or explicit institutional agents according
   to disciplinary convention and local context. Prefer an identifiable agent
   over vague formulas such as `si ritiene` when responsibility matters.
 - Define an acronym at its first relevant occurrence in the document. Re-expand
   it only when a long separation, a standalone excerpt, or editorial norms make
   that useful.
-- Avoid redundant framing and accidental repetition. Repeat the same label for
-  the same construct; never introduce synonyms merely to create variety.
-- Use negative contrast (`non... ma...`) when it makes a conceptual boundary
-  precise. Reduce it only when repetitive or rhetorically theatrical.
-- Use connectors where the logical relation needs signalling. Initial, medial,
-  and integrated positions are all valid; choose by rhythm and scope.
+- Use negative contrast (`non... ma...`) when the boundary between the two
+  terms is itself the content. When the rejected term is a commonplace and the
+  informative content is the affirmative one, state the affirmative directly and
+  delimit it afterwards if needed. Repeated negative contrast within a paragraph
+  or section is a signal regardless of local justification.
+- Use connectors where the logical relation needs signalling. Place each one
+  where its scope is unambiguous: a connector governing the whole period belongs
+  in initial position, one qualifying a single constituent stays next to it. Do
+  not front a connector by default, and do not accumulate discourse signals.
 - Make pronouns, demonstratives, and omitted subjects unambiguous. Articles are
   not anaphoric pronouns; lexical repetition is preferable to an unclear
   antecedent.
 - Prefer measured claims. Match causal and generalizing language to the study
   design and the available evidence.
+
+## Repetition
+
+Distinguish three kinds before intervening:
+
+- **Necessary terminological repetition**: the established label of a construct.
+  Keep it; never substitute a synonym for lexical variety.
+- **Avoidable lexical repetition**: ordinary words repeated with no gain in
+  precision. Vary them when the variation changes nothing else.
+- **Conceptual repetition**: two passages carrying the same proposition. Merge or
+  cut. When it spans paragraphs, route to `wayfinder` or `article-revision`
+  `/r-redundancy`; surface polish cannot repair it.
+
+## Coordination and enumeration
+
+- Check that coordinated elements are parallel in syntax and in category. Do not
+  coordinate a discipline with a theory, an author with a process, or a noun
+  phrase with a full clause unless the mismatch is deliberate.
+- When an enumeration carries many elements, consider a general category, a
+  colon, and the coordinated elements: «La ricerca integra contributi
+  provenienti da diversi ambiti: gli studi sull'intelligenza artificiale, le
+  scienze cognitive, le teorie dell'adozione tecnologica e gli studi sulla
+  trasformazione sociotecnica.»
+- Do not reach for a heavier connective such as `nonché` or `altresì` only to
+  avoid repeating `e`.
+
+## Punctuation
+
+- Let punctuation expose the logical structure: the full stop closes an
+  argumentative step; the comma separates compatible constituents and encloses
+  short insertions; the colon introduces an explanation, a specification, or an
+  enumeration announced by a general category; the semicolon separates complex
+  items belonging to one structure.
+- Flag commas between subject and verb, commas that only transcribe spoken
+  pauses, semicolons used in place of sentence boundaries, and sequences of
+  insertions that keep the main clause suspended.
 
 ## Conceptual and argumentative coherence
 
@@ -120,6 +165,35 @@ unless the user or a controlling editorial norm requires normalization.
   justified approximations and uncertainty.
 - Prefer descriptive, concise titles; creative titles remain available when the
   user or publication context calls for them.
+
+## Linguistic verification
+
+A revision that asserts something about Italian must be defensible. Before
+claiming that a construction is incorrect, bureaucratic, archaic, or
+inappropriate, and before asserting the value of a connective, a verb
+government, or a punctuation mark, consult Treccani and report what the entry
+says. See [`references/treccani.md`](references/treccani.md) for the triggers,
+the source order, the `site:treccani.it` query pattern, and the four levels:
+correctness, meaning, register, appropriateness.
+
+Verification is conditional, not automatic: it applies to a genuine doubt or an
+explicit linguistic claim, not to every period. When Treccani does not settle the
+question, present the change as a motivated stylistic preference and say so.
+Never call a form wrong when it is only unsuited to the register of the text.
+
+## Final check
+
+Before proposing a revision:
+
+- Does every sentence add something, and is the order of information logical?
+- Are the subject and the main verb easy to locate?
+- Do connectors express a real relation, and does every anaphor have one
+  antecedent?
+- Are the labels of constructs unchanged?
+- Is the strength of each claim still proportional to the evidence?
+- Did anything change only because it sounded better?
+- Can every linguistic judgement be justified, and was Treccani consulted where a
+  real doubt arose?
 
 ## Other skills
 
