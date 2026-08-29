@@ -1,6 +1,7 @@
 ---
 name: tone-of-voice
 description: Review or refine already drafted thesis and publication prose for a clear, precise, restrained academic voice and readable paragraph structure after conceptual meaning and content architecture are settled. Use for academic style checks, polishing, or translation review; use scrittura to compose or organize new material.
+compatibility: Requires the `treccani` Agent Skill, which performs the linguistic verification this skill mandates
 ---
 
 # Tone of Voice
@@ -171,15 +172,18 @@ unless the user or a controlling editorial norm requires normalization.
 A revision that asserts something about Italian must be defensible. Before
 claiming that a construction is incorrect, bureaucratic, archaic, or
 inappropriate, and before asserting the value of a connective, a verb
-government, or a punctuation mark, consult Treccani and report what the entry
-says. See [`references/treccani.md`](references/treccani.md) for the triggers,
-the source order, the `site:treccani.it` query pattern, and the four levels:
-correctness, meaning, register, appropriateness.
+government, or a punctuation mark, run the lookup through the `treccani` skill
+and report what the entry says. See
+[`references/treccani.md`](references/treccani.md) for the triggers, the command
+to choose for each doubt, and the four levels: correctness, meaning, register,
+appropriateness.
 
 Verification is conditional, not automatic: it applies to a genuine doubt or an
-explicit linguistic claim, not to every period. When Treccani does not settle the
-question, present the change as a motivated stylistic preference and say so.
-Never call a form wrong when it is only unsuited to the register of the text.
+explicit linguistic claim, not to every period. Send the isolated doubt, never
+the author's passage. When the entry does not settle the question, or the lookup
+is unavailable, present the change as a motivated stylistic preference and say
+so. Never call a form wrong when it is only unsuited to the register of the
+text, and never state that a point was checked when the lookup was not run.
 
 ## Final check
 
@@ -200,5 +204,7 @@ Before proposing a revision:
 - `wayfinder` settles definitions, relations among ideas, and content
   architecture before stylistic rewriting.
 - `scrittura` organizes source material, drafts, and compares formulations.
+- `treccani` performs the lookup that this skill's linguistic judgements
+  require, and decides nothing editorial: the judgement stays here.
 - `article-revision` governs approved file edits, citations, versioning, and
   optional Git publication. Style guidance alone never authorizes those actions.

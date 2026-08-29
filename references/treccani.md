@@ -1,7 +1,8 @@
 # Linguistic verification — Treccani
 
 A revision that makes a claim about Italian must be defensible. This reference
-governs how to check one before stating it.
+governs when to check one and how to report it; the `treccani` skill performs the
+lookup.
 
 Verification is conditional. It applies to a genuine doubt or to an explicit
 linguistic judgement, not to every period of the text.
@@ -30,24 +31,29 @@ a redundant sentence, reordering information, replacing a vague noun with a
 precise one, or shortening a period. Consulting a dictionary for every sentence
 wastes the pass and buries the cases that matter.
 
-## Source order
+## How to consult
 
-1. *Enciclopedia dell'Italiano* — grammar, syntax, connectives, register.
-2. *Vocabolario Treccani* — meaning, government, usage labels.
-3. *La grammatica italiana* and the Treccani prontuari — normative questions.
-4. Other Treccani linguistic contributions (*Lingua italiana*, *Domande e
-   risposte*) when the first three do not cover the point.
+Use the `treccani` skill. Choose the command from the doubt, not from the
+sentence:
 
-## Query pattern
+| Doubt | Command |
+|---|---|
+| meaning, accezioni, government of a verb or noun | `word <lemma>` |
+| register: bureaucratic, archaic, literary, rare? | `word <lemma>`, then read the usage labels (*burocr.*, *ant.*, *letter.*, *raro*) |
+| an equivalent in another register | `synonyms <lemma>` |
+| a construction, a connective, punctuation, agreement | `language <phenomenon>` |
+| the concept behind a technical term | `encyclopedia <term>` |
 
-When web access is available, search `site:treccani.it "<the construction>"`
-and open the relevant entry directly. A generic query returns writing blogs and
-SEO pages before the linguistic sources, so keep the site restriction. Read the
-entry rather than the search snippet: usage labels and the discriminating
-example are usually below the summary line.
+Where authority sits: the Vocabolario decides **register**, through its usage
+labels; the Enciclopedia dell'Italiano decides **structure**, because it
+describes the grammar of the language. A magazine article describes usage; it
+does not settle a norm.
 
-Without web access, say that the point was not verified and mark the change as a
-stylistic preference.
+Search the lemma, never the inflected form, and never the author's sentence:
+what reaches Treccani is the isolated doubt, not the passage under revision.
+
+Read `warnings` before the results — it says whether you have the entry or only a
+fallback search — and read `truncated`: an extract is not the whole entry.
 
 ## The four levels
 
@@ -67,22 +73,27 @@ are admitted forms with a marked register, not errors.
 
 ## Reporting
 
-State the level and the source in one clause, then the proposal:
+State the level and the entry in one clause, then the proposal. Name the source,
+not the tooling: the reader verifies the entry, not the command you ran.
 
 - «`in merito a` è corretto ma di registro burocratico (Vocabolario Treccani,
   s.v. *merito*): qui `su` è più piano.»
 - «`nonostante` regge il congiuntivo o un nome, non `che` + indicativo
   (Enciclopedia dell'Italiano, *concessive, frasi*).»
 
-When Treccani does not settle the question, say so and present the change as a
+When the entry does not settle the question, say so and present the change as a
 motivated stylistic preference:
 
 - «Treccani non discrimina i due costrutti; preferisco il secondo perché
   avvicina il soggetto al verbo.»
+
+If the `treccani` skill is unavailable or returns an error, the point is
+unverified: say it, and do not upgrade the change into a linguistic correction.
 
 ## Prohibitions
 
 - Never call a form wrong when it is only unsuited to the register of the text.
 - Never turn a stylistic preference into a grammatical rule.
 - Never attribute to Treccani a judgement its entry does not carry.
+- Never state that a point was checked when the lookup was not run or failed.
 - Never leave an explicit linguistic claim unverified when a real doubt exists.
