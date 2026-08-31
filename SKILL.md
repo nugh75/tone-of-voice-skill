@@ -59,15 +59,36 @@ search-and-replace rules.
 
 ## Repetition
 
+Judge propositions, not strings. A repeated term can be necessary; different
+wording can still repeat the same proposition.
+
 Distinguish three kinds before intervening:
 
 - **Necessary terminological repetition**: the established label of a construct.
   Keep it; never substitute a synonym for lexical variety.
 - **Avoidable lexical repetition**: ordinary words repeated with no gain in
   precision. Vary them when the variation changes nothing else.
-- **Conceptual repetition**: two passages carrying the same proposition. Merge or
-  cut. When it spans paragraphs, route to `wayfinder` or `article-revision`
-  `/r-redundancy`; surface polish cannot repair it.
+- **Conceptual repetition**: two passages carrying the same proposition. Apply
+  the ordered decision model below; surface polish cannot repair it.
+
+When two passages overlap, follow this precedence order and stop at the first
+that holds:
+
+1. **Structural recurrence** (roadmaps, previews, announced recaps) -> keep.
+2. **Terminological anchor** (the construct's canonical label must stay stable)
+   -> keep.
+3. **Rhetorical/stylistic recurrence** (anaphora, parallelism, refrain, motif)
+   -> keep when intentional and functional; verify the emphasis fits the genre.
+4. **Coherence problem / unprepared return** -> flag and propose the missing
+   signpost, bridge, or setup; do not silently rewrite structure.
+5. **Repeated proposition with useful novelty but poor placement or form** ->
+   merge or reformulate, keeping the unique content at its most pertinent
+   location.
+6. **Pure semantic redundancy** -> delete the weaker occurrence.
+
+Never jump straight to deletion. When the redundancy spans paragraphs in a
+versioned manuscript, route to `article-revision` `/r-redundancy`; when it is
+architectural (duplicate sections or functions), route to `wayfinder`.
 
 ## Coordination and enumeration
 
@@ -189,7 +210,8 @@ text, and never state that a point was checked when the lookup was not run.
 
 Before proposing a revision:
 
-- Does every sentence add something, and is the order of information logical?
+- Does every sentence add a distinct proposition, and is the order of information logical?
+- Do adjacent and distant sentences advance rather than paraphrase one another?
 - Are the subject and the main verb easy to locate?
 - Do connectors express a real relation, and does every anaphor have one
   antecedent?
