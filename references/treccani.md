@@ -73,8 +73,9 @@ are admitted forms with a marked register, not errors.
 
 ## Reporting
 
-State the level and the entry in one clause, then the proposal. Name the source,
-not the tooling: the reader verifies the entry, not the command you ran.
+State the level, name and link the exact entry consulted, then give the proposal.
+Record whether the entry supported the judgement, was inconclusive, or was
+unavailable. Carry that evidence with the proposal when handing it off.
 
 - «`in merito a` è corretto ma di registro burocratico (Vocabolario Treccani,
   s.v. *merito*): qui `su` è più piano.»
