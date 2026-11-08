@@ -23,6 +23,11 @@ only when substantial recasting is explicitly requested or already approved.
 Style signals are candidates for contextual review, never automatic bans or
 search-and-replace rules.
 
+Read any approved examples linked from the project's style notes. Match the
+function of the passage: theory establishes constructs, methods specify
+conditions and procedures, and discussion interprets the evidence within its
+limits. Apply the examples' reasoning to the current text.
+
 ## Academic voice
 
 - Prefer clear, concrete academic language. Preserve necessary theoretical and
@@ -62,33 +67,25 @@ search-and-replace rules.
 Judge propositions, not strings. A repeated term can be necessary; different
 wording can still repeat the same proposition.
 
-Distinguish three kinds before intervening:
+Review two levels independently.
 
-- **Necessary terminological repetition**: the established label of a construct.
-  Keep it; never substitute a synonym for lexical variety.
-- **Avoidable lexical repetition**: ordinary words repeated with no gain in
-  precision. Vary them when the variation changes nothing else.
-- **Conceptual repetition**: two passages carrying the same proposition. Apply
-  the ordered decision model below; surface polish cannot repair it.
+1. **Terminology.** Keep the canonical name of each construct wherever it
+   is needed. Vary ordinary words only when their meaning and reference stay
+   precise.
+2. **Propositions.** For overlapping passages, identify the claim, the
+   argumentative function and the added evidence or qualification in each.
+   Decide on the passage after this comparison, even when both use the same
+   canonical term.
 
-When two passages overlap, follow this precedence order and stop at the first
-that holds:
+Keep functional recaps, definitions followed by evidence, and intentional
+rhetorical recurrence. Flag a return that needs a bridge. If a passage repeats
+a claim with new support, preserve that contribution and propose a concise
+connection. If it repeats the same proposition and adds no function, propose
+removing the weaker occurrence.
 
-1. **Structural recurrence** (roadmaps, previews, announced recaps) -> keep.
-2. **Terminological anchor** (the construct's canonical label must stay stable)
-   -> keep.
-3. **Rhetorical/stylistic recurrence** (anaphora, parallelism, refrain, motif)
-   -> keep when intentional and functional; verify the emphasis fits the genre.
-4. **Coherence problem / unprepared return** -> flag and propose the missing
-   signpost, bridge, or setup; do not silently rewrite structure.
-5. **Repeated proposition with useful novelty but poor placement or form** ->
-   merge or reformulate, keeping the unique content at its most pertinent
-   location.
-6. **Pure semantic redundancy** -> delete the weaker occurrence.
-
-Never jump straight to deletion. When the redundancy spans paragraphs in a
-versioned manuscript, route to `article-revision` `/r-redundancy`; when it is
-architectural (duplicate sections or functions), route to `wayfinder`.
+For redundancy across paragraphs of a versioned article, pass the exact
+locations and their distinct contributions to `article-revision`
+`/r-redundancy`. Route duplicate sections or functions to `wayfinder`.
 
 ## Coordination and enumeration
 
@@ -220,6 +217,19 @@ Before proposing a revision:
 - Did anything change only because it sounded better?
 - Can every linguistic judgement be justified, and was Treccani consulted where a
   real doubt arose?
+
+## Proposal
+
+Show the exact original and replacement with a short reason. Keep independently
+decidable changes separate. Distinguish verified linguistic corrections,
+stylistic preferences, and conceptual decisions. For a verified judgement, give
+the level and the specific Treccani entry consulted. Describe an inconclusive
+or unavailable lookup as such. Route conceptual decisions for review.
+
+For a versioned article, use the Proposal format in `article-revision`.
+Pass the exact target, approved wording, rationale, risk and verification
+evidence together. The revision workflow checks that the original still
+matches before applying.
 
 ## Other skills
 
